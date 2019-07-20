@@ -1,0 +1,14 @@
+<suite name="Parallel Tests" verbose="1" thread-count="1" parallel="tests">
+    <tests>
+        <test name="Chrome Test">
+            <classes>
+                <class name="p900.p900Test" />
+            </classes>
+        </test>
+        <test name="Firefox Test">
+            <classes>
+                <class name="selenidesamples.LambdaSampleParallelTestAutomation" />
+            </classes>
+        </test>
+    </tests>
+</suite>
